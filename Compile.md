@@ -6,6 +6,8 @@ Android & Ios dependencies are not part of this scope.
 As the project is build around the webwallet, the first thing to do is to download the content of the [official masari webwallet](https://github.com/masari-project/masari-webwallet)
 and put the content of the src directory inside the src directory of this repo
 
+Create a directory named "www", empty.
+
 The next step is to compile with 
 ```
 cordova build

@@ -64,6 +64,14 @@
         <splash density="port-xxhdpi" src="res/screen/android/splash-port-xxhdpi.png" />
         <splash density="port-xxxhdpi" src="res/screen/android/splash-port-xxxhdpi.png" />
     </platform>
-    <engine name="android" spec="^7.0.0" />
     <plugin name="cordova-plugin-qrscanner" spec="^2.6.0" />
+    <plugin name="phonegap-nfc" spec="^1.0.3" />
+    <plugin name="cordova-plugin-nativestorage" spec="^2.3.2" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
+    <preference name="StatusBarBackgroundColor" value="#36393f" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
+    <plugin name="cordova-plugin-file" spec="^6.0.1" />
+    <plugin name="cordova-plugin-app-version" spec="^0.1.9" />
+    <engine name="android" spec="7.0.0" />
 </widget>
