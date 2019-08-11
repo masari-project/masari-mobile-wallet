@@ -16,7 +16,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <hook src="scripts/beforeBuild.bat" type="before_build" />
+    <hook src="scripts/beforeBuild.sh" type="before_build" />
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
