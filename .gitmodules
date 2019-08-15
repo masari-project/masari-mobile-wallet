@@ -1,0 +1,3 @@
+[submodule "masari-webwallet"]
+	path = masari-webwallet
+	url = https://github.com/masari-project/masari-webwallet.git
