@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="org.masari.wallet" version="1.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="org.masari.mobilewallet" version="1.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Masari</name>
     <description>
 		Official Masari Wallet
@@ -64,14 +64,16 @@
         <splash density="port-xxhdpi" src="res/screen/android/splash-port-xxhdpi.png" />
         <splash density="port-xxxhdpi" src="res/screen/android/splash-port-xxxhdpi.png" />
     </platform>
-    <plugin name="cordova-plugin-qrscanner" spec="^2.6.0" />
-    <plugin name="phonegap-nfc" spec="^1.0.3" />
+    <plugin name="cordova-plugin-qrscanner" spec="^3.0.1" />
+    <plugin name="phonegap-nfc-fxmanifest" spec="^1.0.5" />
     <plugin name="cordova-plugin-nativestorage" spec="^2.3.2" />
-    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.3" />
     <preference name="StatusBarBackgroundColor" value="#36393f" />
     <preference name="StatusBarStyle" value="lightcontent" />
-    <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
+    <plugin name="cordova-plugin-splashscreen" spec="^5.0.3" />
     <plugin name="cordova-plugin-file" spec="^6.0.1" />
     <plugin name="cordova-plugin-app-version" spec="^0.1.9" />
-    <engine name="android" spec="^7.0.0" />
+    <engine name="android" spec="^8.1.0" />
+    <preference name="android-minSdkVersion" value="23" />
+    <preference name="android-targetSdkVersion" value="28" />
 </widget>
